@@ -31,7 +31,7 @@ const App = () => {
       />
       <div className={classes.imageContainer}>
         {imgs.map((img, index) => (
-          <div key={img}>
+          <div key={img} className={classes.image}>
             <img src={img} alt="captured" />
             <button onClick={() => removeImage(index)}>Remove</button>
           </div>
