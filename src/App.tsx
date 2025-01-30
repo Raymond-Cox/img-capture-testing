@@ -22,6 +22,9 @@ const App = () => {
 
   return (
     <div className={classes.container}>
+      <p>Normal file</p>
+      <input type="file" id="normalFile" onChange={onChange} />
+      <p>Image only</p>
       <input
         type="file"
         accept="image/*"
